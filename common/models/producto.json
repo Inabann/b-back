@@ -17,6 +17,21 @@
       "type": "hasMany",
       "model": "DetalleProducto",
       "foreignKey": ""
+    },
+    "plans": {
+      "type": "hasMany",
+      "model": "Plan",
+      "foreignKey": ""
+    },
+    "equipo": {
+      "type": "hasMany",
+      "model": "Pack",
+      "foreignKey": "equipo"
+    },
+    "chip": {
+      "type": "hasMany",
+      "model": "Pack",
+      "foreignKey": "chip"
     }
   },
   "acls": [],

@@ -1,0 +1,28 @@
+{
+  "name": "Plan",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "monto": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "packs": {
+      "type": "hasMany",
+      "model": "Pack",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

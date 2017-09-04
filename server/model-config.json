@@ -54,5 +54,13 @@
   "DetalleProducto": {
     "dataSource": "mongo-dev",
     "public": true
+  },
+  "Plan": {
+    "dataSource": "mongo-dev",
+    "public": true
+  },
+  "Pack": {
+    "dataSource": "mongo-dev",
+    "public": true
   }
 }
