@@ -42,5 +42,17 @@
   "prueba": {
     "dataSource": "mongo-dev",
     "public": true
+  },
+  "Factura": {
+    "dataSource": "mongo-dev",
+    "public": true
+  },
+  "Producto": {
+    "dataSource": "mongo-dev",
+    "public": true
+  },
+  "DetalleProducto": {
+    "dataSource": "mongo-dev",
+    "public": true
   }
 }

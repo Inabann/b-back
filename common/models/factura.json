@@ -1,0 +1,32 @@
+{
+  "name": "Factura",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "total": {
+      "type": "number",
+      "required": true
+    },
+    "codigo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "detalleProductos": {
+      "type": "hasMany",
+      "model": "DetalleProducto",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

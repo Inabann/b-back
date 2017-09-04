@@ -1,0 +1,28 @@
+{
+  "name": "DetalleProducto",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "serie": {
+      "type": "string",
+      "required": true
+    },
+    "vendido": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "factura": {
+      "type": "belongsTo",
+      "model": "Factura",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
