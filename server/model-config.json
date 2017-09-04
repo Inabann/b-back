@@ -62,5 +62,13 @@
   "Pack": {
     "dataSource": "mongo-dev",
     "public": true
+  },
+  "Venta": {
+    "dataSource": "mongo-dev",
+    "public": true
+  },
+  "Asesor": {
+    "dataSource": "mongo-dev",
+    "public": true
   }
 }

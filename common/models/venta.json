@@ -1,0 +1,49 @@
+{
+  "name": "Venta",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dni": {
+      "type": "string",
+      "required": true
+    },
+    "operador": {
+      "type": "string"
+    },
+    "num_porta": {
+      "type": "string"
+    },
+    "tipo_plan": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_venta": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "asesor": {
+      "type": "belongsTo",
+      "model": "Asesor",
+      "foreignKey": ""
+    },
+    "pack": {
+      "type": "belongsTo",
+      "model": "Pack",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -7,7 +7,13 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "venta": {
+      "type": "hasMany",
+      "model": "Venta",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
