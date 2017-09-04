@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo-dev": {
+    "host": "ds123084.mlab.com",
+    "port": 23084,
+    "url": "mongodb://admin:admin@ds123084.mlab.com:23084/bitel-prueba",
+    "database": "bitel-prueba",
+    "password": "admin",
+    "name": "mongo-dev",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}
