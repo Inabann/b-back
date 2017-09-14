@@ -6,7 +6,7 @@ module.exports = function(app) {
     var RoleMapping = app.models.RoleMapping;
 
     User.create([
-      {username: 'admin',email: 'admin@gmail.com', password: 'admin'}
+      {username: 'admin',email: 'admin@gmail.com', password: 'admin', admin: true}
     ], function(err, users) {
       if (err) throw err;
 
