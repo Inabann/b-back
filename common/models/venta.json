@@ -35,7 +35,7 @@
   "relations": {
     "asesor": {
       "type": "belongsTo",
-      "model": "Asesor",
+      "model": "usuario",
       "foreignKey": ""
     },
     "pack": {

@@ -39,10 +39,6 @@
     "dataSource": "mongo-dev",
     "public": true
   },
-  "prueba": {
-    "dataSource": "mongo-dev",
-    "public": true
-  },
   "Factura": {
     "dataSource": "mongo-dev",
     "public": true
@@ -64,10 +60,6 @@
     "public": true
   },
   "Venta": {
-    "dataSource": "mongo-dev",
-    "public": true
-  },
-  "Asesor": {
     "dataSource": "mongo-dev",
     "public": true
   }

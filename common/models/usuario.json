@@ -10,10 +10,35 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "dni": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "telf": {
+      "type": "string"
+    },
+    "fecha_contrato": {
+      "type": "date"
+    },
+    "activo": {
+      "type": "boolean",
+      "required": true,
+      "default": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "venta": {
+      "type": "hasMany",
+      "model": "Venta",
+      "foreignKey": ""
+    }
+  },
   "acls": [
     {
       "accessType": "*",
