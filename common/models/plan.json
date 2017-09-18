@@ -21,6 +21,11 @@
       "type": "hasMany",
       "model": "Pack",
       "foreignKey": ""
+    },
+    "producto": {
+      "type": "belongsTo",
+      "model": "Producto",
+      "foreignKey": ""
     }
   },
   "acls": [],
