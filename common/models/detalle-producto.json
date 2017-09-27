@@ -8,6 +8,8 @@
   "properties": {
     "serie": {
       "type": "string",
+      "id": true,
+      "generated": false,
       "required": true
     },
     "vendido": {

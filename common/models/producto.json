@@ -8,6 +8,8 @@
   "properties": {
     "nombre": {
       "type": "string",
+      "id": true,
+      "generated": false,
       "required": true
     },
     "tipo": {
