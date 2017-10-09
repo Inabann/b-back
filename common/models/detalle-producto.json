@@ -15,6 +15,9 @@
     "vendido": {
       "type": "boolean",
       "default": false
+    },
+    "saldo": {
+      "type": "number"
     }
   },
   "validations": [],

@@ -33,11 +33,6 @@
   },
   "validations": [],
   "relations": {
-    "asesor": {
-      "type": "belongsTo",
-      "model": "usuario",
-      "foreignKey": ""
-    },
     "pack": {
       "type": "belongsTo",
       "model": "Pack",
