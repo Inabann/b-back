@@ -13,6 +13,10 @@
     "monto": {
       "type": "number",
       "required": true
+    },
+    "descuento": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -20,11 +24,6 @@
     "packs": {
       "type": "hasMany",
       "model": "Pack",
-      "foreignKey": ""
-    },
-    "producto": {
-      "type": "belongsTo",
-      "model": "Producto",
       "foreignKey": ""
     }
   },
