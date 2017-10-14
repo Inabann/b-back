@@ -29,16 +29,31 @@
     "fecha_venta": {
       "type": "date",
       "required": true
+    },
+    "plan": {
+      "type": "string"
+    },
+    "descuento": {
+      "type": "number"
+    },
+    "equipo": {
+      "type": "string"
+    },
+    "sim_equipo": {
+      "type": "string"
+    },
+    "sim_chip": {
+      "type": "string"
+    },
+    "total": {
+      "type": "number"
+    },
+    "precio": {
+      "type": "number"
     }
   },
   "validations": [],
-  "relations": {
-    "pack": {
-      "type": "belongsTo",
-      "model": "Pack",
-      "foreignKey": ""
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

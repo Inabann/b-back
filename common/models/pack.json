@@ -5,12 +5,16 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "precio": {
+      "type": "number"
+    }
+  },
   "validations": [],
   "relations": {
-    "venta": {
-      "type": "hasMany",
-      "model": "Venta",
+    "plan": {
+      "type": "belongsTo",
+      "model": "Plan",
       "foreignKey": ""
     }
   },
