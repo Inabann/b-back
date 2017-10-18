@@ -27,6 +27,11 @@
       "type": "hasMany",
       "model": "DetalleProducto",
       "foreignKey": ""
+    },
+    "usuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
     }
   },
   "acls": [],

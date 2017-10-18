@@ -26,6 +26,11 @@
       "type": "belongsTo",
       "model": "Factura",
       "foreignKey": ""
+    },
+    "usuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
     }
   },
   "acls": [],

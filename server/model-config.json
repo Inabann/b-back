@@ -62,5 +62,13 @@
   "Venta": {
     "dataSource": "mongo-dev",
     "public": true
+  },
+  "Asesor": {
+    "dataSource": "mongo-dev",
+    "public": true
+  },
+  "Pago": {
+    "dataSource": "mongo-dev",
+    "public": true
   }
 }

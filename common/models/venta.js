@@ -76,7 +76,7 @@ module.exports = function(Venta) {
 	  		operador: 1,
 	  		tipo_plan: 1,
 	  		num_porta: 1,
-	  		usuarioId: 1,
+	  		asesorId: 1,
         month: { $month: "$fecha_venta" },
         year: { $year: "$fecha_venta" }
     	}},
