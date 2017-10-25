@@ -7,8 +7,10 @@
   },
   "properties": {
     "dni": {
-      "type": "string",
-      "required": true
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
     },
     "operador": {
       "type": "string"
@@ -23,8 +25,7 @@
       "type": "string"
     },
     "ref": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "fecha_venta": {
       "type": "date",

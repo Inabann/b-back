@@ -10,9 +10,20 @@ module.exports = function(Detalleproducto) {
 					$match: { vendido: {$eq: false}}
 				},
 	    	{ $group: {
-		      _id: '$productoId',
+		      _id: { producto:'$productoId', usuario: '$usuarioId'},
 		    	cantidad: { $sum: 1 },
-		    }}
+		    	productos: { $push: '$_id' }
+		    }},
+		    {
+		    	$lookup: {
+	          from: "usuario",
+	          localField: "_id.usuario",
+	          foreignField: "_id",
+	          as: "local"
+	        }
+		    },
+		    { $unwind: '$local'},
+		    { $project: { local: {password: 0} } }
 			], (err, data) => {
 		    cb(null, data);
 			})

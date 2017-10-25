@@ -14,6 +14,11 @@
     "email": {
       "type": "string",
       "required": false
+    },
+    "saldo": {
+      "type": "number",
+      "required": false,
+      "default": 0
     }
   },
   "validations": [],
@@ -34,6 +39,18 @@
       "accessType": "*",
       "principalType": "ROLE",
       "principalId": "admin",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
       "permission": "ALLOW"
     }
   ],
