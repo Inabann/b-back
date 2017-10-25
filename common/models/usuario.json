@@ -32,6 +32,21 @@
       "type": "hasMany",
       "model": "Factura",
       "foreignKey": ""
+    },
+    "pago": {
+      "type": "hasMany",
+      "model": "Pago",
+      "foreignKey": ""
+    },
+    "de": {
+      "type": "hasMany",
+      "model": "Transaccion",
+      "foreignKey": "de"
+    },
+    "para": {
+      "type": "hasMany",
+      "model": "Transaccion",
+      "foreignKey": "para"
     }
   },
   "acls": [
