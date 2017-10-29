@@ -13,6 +13,10 @@
     "monto": {
       "type": "number",
       "required": true
+    },
+    "precio": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
