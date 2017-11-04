@@ -59,6 +59,11 @@
       "type": "belongsTo",
       "model": "Asesor",
       "foreignKey": ""
+    },
+    "usuario": {
+      "type": "belongsTo",
+      "model": "usuario",
+      "foreignKey": ""
     }
   },
   "acls": [],

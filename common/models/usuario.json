@@ -38,6 +38,11 @@
       "model": "Pago",
       "foreignKey": ""
     },
+    "venta": {
+      "type": "hasMany",
+      "model": "Venta",
+      "foreignKey": ""
+    },
     "de": {
       "type": "hasMany",
       "model": "Transaccion",
