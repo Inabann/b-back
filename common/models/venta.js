@@ -27,6 +27,7 @@ module.exports = function(Venta) {
 			    if(keyA > keyB) return 1;
 			    return 0;
 				});
+				data = data.slice(-8)
 		    data.forEach(venta => {
 					if(venta._id.month == 1) meses.push('Enero')
 					else if(venta._id.month == 2) meses.push('Febrero')
@@ -82,6 +83,7 @@ module.exports = function(Venta) {
 			    if(keyA > keyB) return 1;
 			    return 0;
 				});
+				data = data.slice(-8)
 		    data.forEach(venta => {
 					if(venta._id.month == 1) meses.push('Enero')
 					else if(venta._id.month == 2) meses.push('Febrero')
